@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+.mypara{
+    color:red;
+    font-size:150px;
+    letter-spacing: 56px;
+    line-height: 260px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-decoration-line: line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+   }
+
