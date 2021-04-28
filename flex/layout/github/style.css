@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.logo img{
+max-width: 50px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links ul li{
+    padding:15px 15px;
+}
+
+.header-left{
+    display: flex;
+    flex:3;
+  
+}
+.header-right{
+    flex:1;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-right input{
+    padding:7px 10px;
+    border-radius: 4px;
+    box-shadow: none;
+    border-width: 1px;
+    background: gray;
+    color:#fff;
+
+}
+
+.outline-btn{
+    padding:7px 10px;
+    background-color: transparent;
+    border-radius:5px;
+    border-width: 1px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro-left{
+    flex:2;
+   
+}
+.intro-right{
+    flex:1;
+    
+}
+.intro-right img{
+    width: 700px;
+}
+.intro-left h1{
+    font-size: 70px;
+}
+
+.intro-left p{
+    font-size: 25px;
+}
+
+.intro-left input{
+    padding: 10px 10px;
+    width: 50%;
+}
+
+.btn-success{
+    background-color: #269641;
+    padding: 12px 10px;
+    width: 40%;
+    color:#fff;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.container{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.landing-area{
+  
+}

@@ -1,0 +1,25 @@
+ color : 
+    i) color name (red, pink)
+    ii) hex code (#ffaa78)
+    iii) rgb (rgb(12, 45, 78))
+    iv) hsl (hsl())
+
+font-size:
+    px 
+    em
+    1 em = 16px
+
+letter-spacing
+
+    
+
+resolution 1080x768 px
+5577x1080
+
+font-style:
+font-weight
+font-family
+text-decoration
+text-shadow
+line-height
+text-transform

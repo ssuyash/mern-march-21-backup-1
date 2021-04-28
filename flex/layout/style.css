@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+
+}
+
+.header{
+    background: #F83838;
+    padding:32px 0px
+}
+
+.nav{
+    background:#0B0B0B;
+    padding:12px 0px;
+}
+
+.main{
+    height:600px;
+    display: flex;
+}
+
+.left{
+    background-color: yellow;
+    flex:1;
+}
+
+.center{
+    background-color: turquoise;
+    flex:6;
+    display: flex;
+    flex-direction:column;
+
+}
+.center-top, .center-bottom{
+flex:1;
+}
+.center-top{
+    background-color: teal;
+}
+
+.center-bottom{
+    background-color:green;
+}
+.right{
+    background-color: violet;
+    flex:1
+}
+
+.footer{
+    background: black;
+    padding:10px 0px;
+}

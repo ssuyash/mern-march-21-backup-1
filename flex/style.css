@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.contaier{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content:center; */
+   
+    /* align-items: flex-start; */
+    
+}
+
+.item{
+}
+
+.item-1{
+    background:pink;
+    order:1
+}
+
+.item-2{
+    background:red;
+    order:2;
+    flex-basis: 70px;
+ 
+}
+
+.item-3{
+    background:yellow;
+ 
+   
+}
+
+.item-4{
+    background:blue;
+}
+
+.item-5{
+    background:teal;
+}
+.left, .right, .main-body{
+    height: 25vh;
+   
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+   background:red;
+  
+}
+
+.right{
+background: pink;
+
+}
+
+.main-body{
+    background: yellow;
+
+}

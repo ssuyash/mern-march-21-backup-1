@@ -1,0 +1,17 @@
+nav{
+    font-size: 14px!important;
+   
+}
+
+nav img{
+    width: 50%;
+}
+
+
+.h-50{
+  height: 70vh!important;  
+}
+
+.h-50 img{
+    max-height: 70vh;
+}

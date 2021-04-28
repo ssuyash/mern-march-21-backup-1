@@ -1,0 +1,7 @@
+tag name selector =>> tag{ css here}
+id selector  =>> 
+>> give an uniq id to that element (eg id="garima")
+>> for selection #garima{css here}
+classname selector 
+>> give an uniq id to that element (eg class="garima")
+>> .garima{ css here }
