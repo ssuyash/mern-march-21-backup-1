@@ -15,7 +15,7 @@ var isTimeOut = false
 //string values  
 var info = 'my name is suyash'
 var profession = "Full Stack Developer"
-var hobbies = `Programming`
+var hobbies = `Programming klajsd`
 
 
 //undefined values  
@@ -29,10 +29,15 @@ arr[1]
 
 //Object values 
 var person = {
-    name:"suyahs",
+    name:"suyash",
     age:26,
     languageKnown:["Python", "JS"]
 } 
+
+//JSON  => JavaScript Object Notation
+
+
+
 //person['age']
 //person.age
 
@@ -42,14 +47,11 @@ var emptyObj = null
 
 
 
-"suyash"
-
-
-veg  => 
-milk => 
-
 
 // Strictly Typed => TypeScript
 // Loosely typed
 
 //number 
+
+
+console.log(num1)
