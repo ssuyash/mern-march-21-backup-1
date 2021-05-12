@@ -98,3 +98,12 @@ console.log(big)
 // var str2 = "sourabh kumar"
 
 // console.log(str1 > str2)
+
+// x%n => 0.. . . n-1
+// 3%3 => 0
+// 4%3 => 1
+// 5%3 => 2 
+// 6%3 => 0 
+
+
+num += 5
