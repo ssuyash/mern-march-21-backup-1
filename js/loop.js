@@ -15,11 +15,11 @@
 // }
 
 
-for(var i=1; i<=3; i++){
-    for(var j=i; j>=0; j--){
-        console.log(i, j)
-    }
-}
+// for(var i=1; i<=3; i++){
+//     for(var j=i; j>=0; j--){
+//         console.log(i, j)
+//     }
+// }
 
 
 
@@ -28,3 +28,20 @@ for(var i=1; i<=3; i++){
 //undefined
 // 11 => 2
 //10 =>2
+
+
+// while(cond){
+// //line of code
+// }
+
+
+// while(alive){
+//     eat();
+//     code();
+//     sleep();
+// }
+
+
+do{
+    var input = prompt("enter a number")
+}while(input != "#")
