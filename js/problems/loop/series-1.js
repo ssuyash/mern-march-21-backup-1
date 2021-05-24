@@ -7,7 +7,8 @@ function fact(num) {
     return ans
 }
 
-
+//a is to power b
+//3^5 => a=>3 b=>5
 function pow(a, b){
     var ans = 1
     for(var i=1; i<=b; i++){
@@ -28,19 +29,15 @@ var res = 0
 var counter = 0
 
 while(termsCount <= n){
-    if(counter%2 == 0){
-        
+    if(counter%2 != 0){
         if(termsCount%2 != 0){
             res += pow(x, counter)/fact(counter)
         }else{
             res -= pow(x, counter)/fact(counter)
         }
-        
         console.log(counter)
         termsCount++
     }
     counter++
-
 }
-
 console.log(res)

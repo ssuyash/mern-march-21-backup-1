@@ -1,11 +1,54 @@
-function fact(num) {
-    var ans = 1
-    for (var i = 1; i <= num; i++) {
-        ans *= i
-    }
-    return num
+// function statement
+//function add(a, b=0, ...args){
+//     console.log(a, b, args)
+//     //rest operator => ...
+//     return a+b
+// }
+
+// console.log(add(10, 56))
+
+
+//function expression 
+var sum = function(a, b){
+    console.log("this function is running")
+    return a+b
 }
 
 
-var f =  fact(5)
-console.log(f)
+function test(fn){
+    fn(10, 20)  //argument function > call
+}
+
+//callback
+//function as an argument
+test(sum)
+
+
+
+function loopOnArray(arr, cb){
+    for(var i=0; i<arr.length; i++){
+        cb(arr[i], i)  // callback
+    }
+}
+
+
+var arr = ["arshad", "brijesh",  "milan", "shraddha", "harshit"]
+
+loopOnArray(arr, function(el){
+    console.log(el)
+})
+
+var arr = [1, 2, 3, 4]
+loopOnArray(arr, function(el, i){
+    console.log("test")
+})
+
+
+
+function sum(a, b){
+    return a+b
+}
+
+sum(10, 20)
+sum(30, 40)
+// fn(param)
