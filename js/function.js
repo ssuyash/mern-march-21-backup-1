@@ -27,7 +27,7 @@ test(sum)
 
 function loopOnArray(arr, cb){
     for(var i=0; i<arr.length; i++){
-        cb(arr[i], i)  // callback
+        cb(arr[i], i, arr)  // callback
     }
 }
 
@@ -39,7 +39,7 @@ loopOnArray(arr, function(el){
 })
 
 var arr = [1, 2, 3, 4]
-loopOnArray(arr, function(el, i){
+loopOnArray(arr, function(a, b, c){
     console.log("test")
 })
 
