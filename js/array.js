@@ -76,8 +76,12 @@ var voters = ages.filter(function(age){
    return age>=18
 })
 
-console.log(voters)
+var voters = []
+ages.forEach(function(e){
+    e>=18 && voters.push(e)
+})
 
+console.log(voters)
 
 var students = [
     {name:"dhruv", existing:true},
@@ -126,3 +130,82 @@ console.log(students.reverse())
 
 
 // console.log( {name:"karan", existing:false} ==  {name:"karan", existing:false})
+
+//**at(index) => returns element from the index
+var arr = [1, 3, 5, 6]
+// console.log(arr.at(3))
+
+
+//**Array.isArray(arr) => returns true if given parameter is array otherwise false
+
+
+//**flat(depth) => return flat
+var arr = [1, 2, [3, 4, [6,7, [9, 10]]], 5] // [1, 2, 3, 4, 5]
+
+console.log(Array.isArray(arr))
+
+var flat = arr.flat(3)
+
+// arr.forEach(function(e){
+//     if(Array.isArray(e)){
+//         e.forEach(function(el){
+//             flat.push(el)
+//         })
+//     }else{
+//         flat.push(e)
+//     }
+// })
+
+
+
+/* arr.reduce(reducer(accumulator, currentVal, index, array), initialValueOfAccumulator) =>
+
+*/
+console.log(flat)
+
+var reduced = flat.reduce(function(accumulator, current){
+    return accumulator+current
+})
+
+console.log(reduced)
+
+
+arr = [1, 2, 3, 7, 56, 76, 12, 9]
+
+var sum = arr[0]
+for(var i=1; i<= arr.length; i++){
+    sum += arr[i]
+}
+
+
+
+var max = arr.reduce(function(a, b){
+    return Math.max(a, b)
+})
+console.log(max)
+
+
+// slice() 
+// slice(start) 
+// slice(start, end)
+console.log("before slice", arr)
+console.log(arr.slice())
+console.log("after slice", arr)
+
+
+
+
+
+var qeryStr = ["name=suyash", "pass=1234"]
+
+
+console.log(qeryStr.join("&"))
+
+
+var arr1 = [1, 2, 3]
+var arr2 = arr1.slice()  // make copy of an array 1
+arr2[0] = 10
+console.log(arr1, arr2)
+//arr1 = [1, 2, 3]
+//arr2 = [10, 2, 3]
+
