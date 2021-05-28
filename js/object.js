@@ -11,11 +11,14 @@ var person = {
     hobbies:["a", "b", "c"],
     printName : function(){
         console.log(this.name)
-    }
+    }, 
+ 
 }
 
 console.log(person.name)
 console.log(person['name'])
+
+
 var key = "name"
 
 //accessing dynamic keys

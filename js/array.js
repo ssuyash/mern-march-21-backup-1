@@ -191,17 +191,8 @@ console.log(max)
 console.log("before slice", arr)
 console.log(arr.slice())
 console.log("after slice", arr)
-
-
-
-
-
 var qeryStr = ["name=suyash", "pass=1234"]
-
-
 console.log(qeryStr.join("&"))
-
-
 var arr1 = [1, 2, 3]
 var arr2 = arr1.slice()  // make copy of an array 1
 arr2[0] = 10
