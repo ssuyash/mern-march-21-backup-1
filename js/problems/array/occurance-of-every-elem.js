@@ -31,11 +31,9 @@ var galla = [10, 10, 20, 50, 10, 2000, 500, 200, 500, 2000, 20, 10, 1, 2, 1, 2, 
 var notes = []
 
 galla.forEach(function(note){
-    
    var noteData =  notes.find(function(e){
        return (e.note == note)
    })
-
    if(noteData == undefined){
        // note not in notes
        var newNote = {note:note, count:1}
@@ -50,5 +48,6 @@ galla.forEach(function(note){
    }
 })
 console.log(notes)
+
 
 

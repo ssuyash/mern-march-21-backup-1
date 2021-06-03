@@ -20,10 +20,6 @@ arr.push("Xyz")
 arr.unshift("mno")
 console.log(arr)
 
-
-
-
-
 //deletion methods 
 //end  => pop() //deletes data from the end of the array returns the deleted one
 var deleted = arr.pop()
@@ -161,6 +157,8 @@ var flat = arr.flat(3)
 /* arr.reduce(reducer(accumulator, currentVal, index, array), initialValueOfAccumulator) =>
 
 */
+
+//[1, 2, 3]
 console.log(flat)
 
 var reduced = flat.reduce(function(accumulator, current){
@@ -200,3 +198,87 @@ console.log(arr1, arr2)
 //arr1 = [1, 2, 3]
 //arr2 = [10, 2, 3]
 
+var arr1 = [1, 2, 3]
+var arr2 = [4, 5, 6]
+
+//[1, 2, 3, 4, 5, 6]
+// arr2.forEach(function(e){
+//     arr1.push(e)
+// })
+// console.log(arr1)
+
+arr1 = arr1.concat(arr2)
+console.log(arr1)
+
+var allVoter = arr1.every(function(e){
+    return e>=18
+})
+
+
+
+console.log(allVoter)
+
+
+var arr1 = [1, 2, 3]
+var arr2 = [1, 2, 3]
+
+//yes
+
+//type of both varialbes must be Array
+// length must be same 
+// every elemet should be same on same index
+
+var arr3 = arr1
+
+console.log("comparing references", arr1 == arr3)
+
+var isSame = true
+console.log("comparing array using cusotm loop start")
+arr1.forEach(function(el, ind){
+    if(el != arr2[ind]){
+       isSame = false
+    }
+})
+
+console.log("comparing array using cusotm loop end")
+console.log(isSame)
+
+function isSimilar(arr1, arr2){
+   return Array.isArray(arr1) && Array.isArray(arr2) && arr1.length == arr2.length && arr1.every(function(el, ind){
+        return el == arr2[ind]
+    })
+}
+
+var arr1 = [{name:"harshit", age:20}]
+var arr2 = [{name:"harshit", age:20}]
+
+var strArr1 = JSON.stringify(arr1)
+var strArr2 = JSON.stringify(arr2)
+console.log("array of object comparision : ", strArr1 == strArr2)
+var s1 = "suyash"
+var s2 = "suyash"
+
+console.log()
+
+
+
+
+var arr1 = [1, 2, 1]
+var arr2 = [].concat(arr1)
+
+var arr2 = arr1.map(function(el){
+    return el
+})
+
+console.log(arr2)
+var arr2 = arr1.slice()
+arr1[0] = 10
+console.log(arr2)
+
+
+//spread operator  (...)
+var copyOfArr1 = [...arr1]  // ES6 
+
+//forEach()
+//slice
+//
