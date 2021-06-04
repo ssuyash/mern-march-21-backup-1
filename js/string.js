@@ -121,3 +121,7 @@ console.log(generateOTP(5))
 //     output : 3
 
 
+//4) var str = "asdasdsdfasdfasdfsdafsdfsadfdf"
+// output : {a:4, d:89, f:98}
+
+
