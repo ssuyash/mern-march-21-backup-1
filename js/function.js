@@ -43,7 +43,7 @@ loopOnArray(arr, function(a, b, c){
     console.log("test")
 })
 
-
+1
 
 function sum(a, b){
     return a+b

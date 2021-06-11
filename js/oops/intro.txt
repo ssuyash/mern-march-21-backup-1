@@ -1,0 +1,93 @@
+Functional => function 
+
+
+
+OOP => Object Oriented Programming 
+
+0) Encapsulation => 
+
+1) Class and Object 
+
+
+Class => Blueprint
+Object => instance of any class
+
+
+
+2) Inheritance
+4) Abstraction
+5) Polymorphism
+
+
+
+==> 
+1) Time Save
+2) Precise
+3) Reusable
+4) Easy to understand/use 
+5) Security 
+
+
+
+
+object => real world etity 
+
+
+mobile => 
+2 => 1) characters => (properties)
+    2) actions => (methods)
+
+
+video => 
+name, size, fileType, frameRate, pixeRatio
+play(), pause(), stop(), mute()
+
+
+
+dog => 
+color, breed, size, 
+bark(), eat(), 
+
+Blueprint 
+Human 
+gender, color, county, religion
+eat(), sleep(),
+
+
+bird=> (properties)
+
+
+
+Student =>
+name, batch, course, totalFees
+classJoin(), askDoubt(), 
+
+
+var harshit =
+
+var 
+
+
+
+
+Mario = {
+    color
+}
+
+
+duck = {
+
+}
+
+
+var person = {
+    name:"abc",
+    yob:1945,
+    calcAge:function(){
+        return 2021-this.yob
+    }
+
+}
+
+
+new ClassName()
