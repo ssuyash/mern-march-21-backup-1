@@ -14,7 +14,9 @@ Object => instance of any class
 
 
 
-2) Inheritance
+2) Inheritance=> 
+    extention of any previous class
+    
 4) Abstraction
 5) Polymorphism
 
