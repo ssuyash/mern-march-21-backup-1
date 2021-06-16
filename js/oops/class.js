@@ -6,7 +6,6 @@ class Student {
         this.course = course;
     }
 
-
     getDetails = ()=>{
         console.log(this.name, this.course)
     }
