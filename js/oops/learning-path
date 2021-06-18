@@ -1,0 +1,16 @@
+application => 
+apply => document => jquery
+
+  => navigation
+  => history
+  => 
+
+
+javascript => 
+            async =>
+
+
+
+ES6 => modules
+    => async await
+    => promises
