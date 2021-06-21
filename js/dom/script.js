@@ -103,7 +103,6 @@ btn.addEventListener('click', function(e){
     btn.style.backgroundColor = "red"
 })
 
-
 var btnRight = document.getElementById('right')
 var btnBottom = document.getElementById('bottom')
 
